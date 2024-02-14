@@ -9,8 +9,7 @@ public class Player : MonoBehaviour
     //Melee attacks. 
 
     //BUGS:
-    /*Continously moving. - Why? Is it the calculations in the move function? Removed fixed update; am I supposed to do that?
-     *Does teleport work? - Need to disable sprite renderer and enable it again*/
+     /*Does teleport work? - Need to disable sprite renderer and enable it again*/
 
     private InputMaster controller;
     private Vector2 move;
